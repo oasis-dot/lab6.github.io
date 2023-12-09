@@ -1,0 +1,127 @@
+@font-face {
+    font-family: MyFont;
+    src: url('Formula1-Bold_web_0.woff') format('woff')
+         
+  }
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+#container{
+    position: relative;
+    height: 90vh;
+    width: 25%;
+    left: 35%;
+    margin-top: 20px;;
+    background-color: #292929;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    height: 100px;
+    width: 6%;
+    margin-left: 94%;
+    background-color: rgb(255, 255, 255, 0.75);
+}
+#line_1{
+    top: -100px;
+}
+#line_2{
+    top: 0px;
+    background-color: rgba(255, 0, 0, 0.75);
+
+}
+#line_3{
+    top: 100px;
+}
+#line_4{
+    top: 400px;
+    margin-left: 0%;
+}
+#line_5{
+    top: 500px;
+    background-color: rgba(255, 0, 0, 0.75);
+    margin-left: 0%;
+}
+#line_6{
+    top: 600px;
+    margin-left: 0%;
+}
+.car{
+    position: absolute;
+    height: 140px;
+    width: 50px;
+    border-radius: 5px;
+}
+#car{
+    bottom: 8%;
+    left: 60%;
+    background-color: #ffde5a00;
+}
+#mycar{
+    scale: 0.2;
+    transform:  translateX(-55em) translateY(-96em);
+}
+
+#car_1{
+    top: -100px;
+    left: 60%;
+    background-color: #26c5ff00;
+}
+#car_2{
+    top: -200px;
+    left: 40%;
+    background-color: #26c5ff00;
+}
+#car_3{
+    top: -350px;
+    left: 50%;
+    background-color: #26c5ff00;
+}
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+#restart {
+    border: none;
+    padding: 25px;
+    color: white;
+    background-color: #51a88b;
+    box-shadow: 4px 4px 0px 1px #2a5748;
+    font-size: 30px;
+    margin-top: 30%;
+    font-family: MyFont, sans-serif;
+
+}
+.small_text{
+    font-size: 15px;
+}
+#score_div{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+    background-color: #51a88b;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #2a5748;
+    font-family: MyFont, sans-serif;
+
+}
+#help{
+	text-align: center;
+    font-family: MyFont, sans-serif;
+}
